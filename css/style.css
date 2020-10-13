@@ -17,6 +17,7 @@ body {
   background-color: #fff;
   color: #222;
   margin-top: 80px;
+  overflow-x: hidden;
 }
 
 img {
@@ -129,8 +130,9 @@ img {
   padding: 170px 0;
   background-image: url(../img/hero-bg.png);
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: calc(50% + 600px) center;
   position: relative;
+  background-size: 1371px 956px;
   background-color: #fafafa;
 }
 .hero-left {
@@ -154,8 +156,10 @@ img {
 }
 .hero-right-img {
   position: absolute;
-  right: 0;
-  top: 0;
+  left: calc(50% + 100px);
+  top: -100px;
+  width: 732px;
+  height: 901px;
 }
 .rectangle {
   background-color: #F4F5F7;
