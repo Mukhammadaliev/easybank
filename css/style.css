@@ -303,6 +303,7 @@ img {
 }
 .container-footer {
   display: flex;
+  align-items: center;
 }
 .logo-social {
   display: inline-block;
