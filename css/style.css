@@ -16,6 +16,7 @@ body {
   line-height: 1.5;
   background-color: #fff;
   color: #222;
+  margin-top: 80px;
 }
 
 img {
@@ -49,6 +50,11 @@ img {
 
 .header {
   background-color: #fff;
+  position: fixed;
+  z-index: 11111;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
@@ -58,6 +64,9 @@ img {
 .logo-img {
   display: inline-block;
   vertical-align: middle;
+}
+.navbar {
+  margin-right: -50px;
 }
 .navbar-list {
   padding: 0;
@@ -97,7 +106,7 @@ img {
 .navbar-link:hover::after {
   transform: scale(1);
 }
-.more-info {
+.global-link {
   display: inline-block;
   vertical-align: baseline;
   padding: 8px 20px;
@@ -111,6 +120,40 @@ img {
   transition: opacity 0.3s ease;
   text-decoration: none;
 }
-.more-info:hover {
+.global-link:hover {
   opacity: 0.4;
+}
+
+
+.hero {
+  padding: 170px 0;
+  background-image: url(../img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  position: relative;
+  background-color: #F4F5F7;
+}
+.hero-left {
+  width: 450px;
+  margin-right: 20px;
+}
+.hero-title {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 64px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #9597A5;
+  margin: 0;
+  margin-bottom: 36px;
+}
+.hero-right-img {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
