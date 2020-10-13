@@ -131,7 +131,7 @@ img {
   background-repeat: no-repeat;
   background-position: 100% 0;
   position: relative;
-  background-color: #F4F5F7;
+  background-color: #fafafa;
 }
 .hero-left {
   width: 450px;
@@ -156,4 +156,75 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+}
+.rectangle {
+  background-color: #F4F5F7;
+  padding: 95px 0;
+}
+.rectangle-title {
+  margin: 0;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  color: #2D314D;
+  margin-bottom: 16px;
+}
+.rectangle-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #9597A5;
+  margin: 0;
+  margin-bottom: 72px;
+}
+.rectangle-list {
+  margin: 0 -12.5px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rectangle-item {
+  width: 250px;
+  margin: 0 12.5px;
+}
+.rectangle-link {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.rectangle-link-title {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 26px;
+}
+.rectangle-link-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #959595;
+  margin: 0;
+}
+.rectangle-link::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  margin-bottom: 40px;
+}
+.online-banking::before{
+  background-image: url(../img/online-banking.svg);
+}
+.simple::before {
+  background-image: url(../img/simple.svg);
+}
+.fast::before {
+  background-image: url(../img/fast.svg);
+}
+.open-api::before {
+  background-image: url(../img/open-api.svg);
 }
